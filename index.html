@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#f6f7fc">
+	<meta name="description" content="Find your next skill partner at SkillSwap Campus.">
+	<title>Sign in | SkillSwap Campus</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="login.js" defer></script>
+</head>
+<body class="login-page">
+	<main class="login-shell">
+		<section class="brand-panel" aria-labelledby="brand-title">
+			<a class="brand-lockup" href="index.html" aria-label="SkillSwap Campus home">
+				<span class="brand-symbol" aria-hidden="true">
+					<svg viewBox="0 0 40 40" fill="none"><path d="M11.5 20a8.5 8.5 0 0 1 14.4-6.1M28.5 20a8.5 8.5 0 0 1-14.4 6.1M12 20h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="11.5" cy="20" r="4" fill="currentColor"/><circle cx="28.5" cy="20" r="4" fill="currentColor"/></svg>
+				</span>
+				<span class="brand-name">SkillSwap <span>Campus</span></span>
+			</a>
+
+			<div class="brand-copy">
+				<p class="eyebrow"><span class="eyebrow-dot"></span> A better way to learn, together</p>
+				<h1 id="brand-title">Your next skill partner is already <em>on campus.</em></h1>
+				<p class="brand-description">Discover students who can teach what you want to learn, and share what you already know.</p>
+				<ul class="value-list">
+					<li><span class="value-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><circle cx="8" cy="7" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M2.7 16c.6-2.4 2.3-3.6 5.3-3.6s4.7 1.2 5.3 3.6M14 5.2a2.3 2.3 0 0 1 0 4.4m1.3 2.8c1.1.6 1.7 1.8 2 3.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span><span>Find compatible learning partners</span></li>
+					<li><span class="value-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><path d="M6.5 6.5 4 9l2.5 2.5M13.5 13.5 16 11l-2.5-2.5M11.8 5 8.2 15" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Exchange skills and knowledge</span></li>
+					<li><span class="value-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><path d="M4 15.5 10 4l6 11.5H4Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M7.2 11h5.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span><span>Build meaningful projects together</span></li>
+				</ul>
+			</div>
+
+			<div class="brand-orbit brand-orbit-one" aria-hidden="true"></div>
+			<div class="brand-orbit brand-orbit-two" aria-hidden="true"></div>
+			<div class="brand-footer"><span class="footer-line"></span> Find People. Share Skills. Build Together.</div>
+		</section>
+
+		<section class="form-panel" aria-labelledby="login-title">
+			<div class="login-card">
+				<div class="mobile-brand-lockup" aria-hidden="true">
+					<span class="brand-symbol"><svg viewBox="0 0 40 40" fill="none"><path d="M11.5 20a8.5 8.5 0 0 1 14.4-6.1M28.5 20a8.5 8.5 0 0 1-14.4 6.1M12 20h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="11.5" cy="20" r="4" fill="currentColor"/><circle cx="28.5" cy="20" r="4" fill="currentColor"/></svg></span>
+					<span class="brand-name">SkillSwap <span>Campus</span></span>
+				</div>
+				<div class="form-heading">
+					<span class="welcome-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 18.5 7 12l5-7 5 7 2 6.5H5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8 18.5h8M9.5 13h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+					<p class="eyebrow form-eyebrow">Your campus, connected</p>
+					<h2 id="login-title">Welcome back</h2>
+					<p>Sign in to continue your learning journey.</p>
+				</div>
+
+				<div class="demo-note" role="note">
+					<span class="demo-note-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M10 9v4m0-6h.01" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>
+					<span><strong>Demo account</strong><small>Sample details are ready to try.</small></span>
+					<span class="demo-pill">DEMO</span>
+				</div>
+
+				<form id="login-form" novalidate>
+					<div class="field-group">
+						<label for="student-id">Student ID</label>
+						<div class="input-wrap">
+							<svg class="input-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="6.2" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M4.2 16c.5-2.6 2.4-4 5.8-4s5.3 1.4 5.8 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+							<input id="student-id" name="studentId" type="text" autocomplete="username" value="UIET2026001" required aria-describedby="student-id-error">
+						</div>
+						<small class="field-error" id="student-id-error"></small>
+					</div>
+					<div class="field-group">
+						<label for="password">Password</label>
+						<div class="input-wrap">
+							<svg class="input-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="4.5" y="8.5" width="11" height="8" rx="1.7" stroke="currentColor" stroke-width="1.5"/><path d="M7 8.5V6a3 3 0 1 1 6 0v2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+							<input id="password" name="password" type="password" autocomplete="current-password" value="demo123" required aria-describedby="password-error">
+							<button class="password-toggle" type="button" aria-label="Show password" aria-pressed="false" data-password-toggle>
+								<svg class="eye-open" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2.5 10s2.7-4.5 7.5-4.5 7.5 4.5 7.5 4.5-2.7 4.5-7.5 4.5S2.5 10 2.5 10Z" stroke="currentColor" stroke-width="1.5"/><circle cx="10" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/></svg>
+								<svg class="eye-closed" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m3 3 14 14M8.6 5.7c.5-.1.9-.2 1.4-.2 4.8 0 7.5 4.5 7.5 4.5a12 12 0 0 1-2 2.5M6.2 6.2C3.8 7.5 2.5 10 2.5 10s2.7 4.5 7.5 4.5c.8 0 1.5-.1 2.1-.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+							</button>
+						</div>
+						<small class="field-error" id="password-error"></small>
+					</div>
+					<div class="form-options">
+						<label class="check-label"><input type="checkbox" name="remember" checked><span class="checkmark" aria-hidden="true"></span><span>Remember me</span></label>
+						<button class="text-button" type="button" data-forgot-password>Forgot password?</button>
+					</div>
+					<p class="form-feedback" id="login-feedback" role="alert" aria-live="polite"></p>
+					<button class="primary-button login-submit" id="login-submit" type="submit">
+						<span class="button-label">Sign in to SkillSwap</span>
+						<svg class="button-arrow" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3.5 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						<span class="button-spinner" aria-hidden="true"></span>
+					</button>
+				</form>
+				<div class="credential-line"><span>Sample credentials</span><span><b>UIET2026001</b><i>·</i><b>demo123</b></span></div>
+				<p class="login-footnote"><span class="footnote-dot"></span> Student community. Shared growth.</p>
+			</div>
+			<p class="page-copyright">© 2026 SkillSwap Campus <span>·</span> A student-built prototype</p>
+		</section>
+	</main>
+	<div class="toast-region" id="login-toast" role="status" aria-live="polite"></div>
+</body>
+</html>
