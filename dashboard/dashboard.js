@@ -1,5 +1,5 @@
 const profile = {
-	name: "Amrita Sharma",
+	name: "Deekshita Goyal",
 	studentId: "UIET2026001",
 	college: "UIET Chandigarh",
 	branch: "ECE",
@@ -12,7 +12,7 @@ const profile = {
 
 const students = [
 	{
-		id: "deekshita-goyal", name: "Deekshita Goyal", branch: "CSE", year: "1st Year", initials: "PV", tone: "tone-lilac",
+		id: "amrita-sharma", name: "Amrita Sharma", branch: "CSE", year: "1st Year", initials: "PV", tone: "tone-lilac",
 		teaches: ["UI/UX Design", "Figma"], wants: ["JavaScript"], interests: ["Design", "Web Development"],
 		bio: "I like turning rough ideas into friendly, thoughtful interfaces. Always up for a small project or a design jam."
 	},
